@@ -1,0 +1,40 @@
+{
+  "name": "oja-selling-example-context",
+  "version": "1.0.0",
+  "description": "Example of structuring app business logic using oja action with dependency injection",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha src/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimichgh/oja-selling-example.git"
+  },
+  "keywords": [
+    "oja",
+    "structure",
+    "business",
+    "logic",
+    "flow"
+  ],
+  "author": "Dmytro Semenov <dimichsdg@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimichgh/oja-selling-example/issues"
+  },
+  "homepage": "https://github.com/dimichgh/oja-selling-example#readme",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "express": "^4.16.1",
+    "marko": "^4.4.28",
+    "oja": "^1.2.1",
+    "oja-context-provider": "^1.0.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  }
+}

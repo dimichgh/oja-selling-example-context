@@ -1,0 +1,11 @@
+---
+inject: true
+to: src/<%= h.domain(name) %>/<%= h.actionName(name) %>/unit-test/index.spec.js
+after: describe
+skip_if: 'action <%=h.actionName(name)%> should be called'
+---
+    it('action <%=h.actionName(name)%> should be called', async () => {
+        const context = await createContext();
+        Assert.equal(`<%=h.domain(name)%>.<%=h.actionName(name)%> is called`,
+            await context.<%=h.domain(name)%>.<%=h.actionName(name)%>());
+    });

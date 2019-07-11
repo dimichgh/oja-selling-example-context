@@ -1,0 +1,10 @@
+---
+inject: true
+to: src/<%= h.domain(name) %>/<%= h.actionName(name) %>/unit-test/index.spec.js
+after: describe
+skip_if: 'action <%=h.actionName(name)%> should be discovered'
+---
+    it('action <%=h.actionName(name)%> should be discovered', async () => {
+        const context = await createContext();
+        Assert.ok(context.<%=h.domain(name)%>.<%=h.actionName(name)%>);
+    });

@@ -1,0 +1,11 @@
+---
+to: src/<%= h.domain(name) %>/<%= h.actionName(name) %>/unit-test/index.spec.js
+---
+'use strict';
+
+const Assert = require('assert');
+require('app-module-path').addPath(process.cwd());
+const createContext = require('src/app-context');
+
+describe(__filename, () => {
+});

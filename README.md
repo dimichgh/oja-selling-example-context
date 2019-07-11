@@ -33,6 +33,6 @@ npx hygen action new consumer/buy
 The output would be
 ```
 Loaded templates: _templates
-       added: src/actions/consumer/buy/unit-test/index.spec.js
-       added: src/actions/consumer/buy/index.js
+       added: src/consumer/buy/unit-test/index.spec.js
+       added: src/consumer/buy/index.js
 ```
