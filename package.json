@@ -32,7 +32,7 @@
     "request": "^2.83.0"
   },
   "devDependencies": {
-    "mocha": "^4.0.1"
+    "mocha": "^6.1.4"
   },
   "engines": {
     "node": ">=8.5.0"
