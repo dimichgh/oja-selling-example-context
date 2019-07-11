@@ -5,7 +5,7 @@ const app = express();
 require('marko/node-require').install();
 require('app-module-path').addPath(process.cwd());
 
-const createContext = require('src/app-context');
+const { createExpressHandler } = require('src/app-context');
 
 /*
   This page should show product page on an imaginary shopping site.
