@@ -5,9 +5,7 @@ An example of structuring app business logic using [oja](https://github.com/dimi
 This is a demo application that shows how application business logic can be structured into independent, shareable actions that can be tested independently and later used to compose more complex actions/pages/responses.
 
 <p align="center">
-    <object type="image/svg+xml" data="demo.svg">
-        Your browser does not support SVG
-    </object>
+    <img src="demo.svg" />
 </p>
 
 ## Usage
